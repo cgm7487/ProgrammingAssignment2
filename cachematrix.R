@@ -1,7 +1,7 @@
 ## Put comments here that give an overall description of what your
 ## functions do
 
-## use cache to cache the inverse matrix of solved matrix
+## use cache to store the inverse matrix of the solved matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -18,7 +18,7 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## calculate the inverse matrix, and use cache to improve performance
+## calculate the inverse matrix, and use cache to improve the performance
 
 cacheSolve <- function(x, ...) {
         m <- x$getInverseM()
